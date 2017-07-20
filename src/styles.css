@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+ul li{
+    list-style-type: none;
+    float: left;
+    padding-right: 20px;
+    position: relative;
+    left: -10px;
+    top:30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*buttons*/
+#buttons{
+    position: absolute;
+    top:170px;
+}
+
+h1{
+
+color:cornflowerblue;
+
+}
+
+
+strong{
+    color:wheat;
+}
+
+span{
+    color:white;
+    border:1px solid white;
+    padding: 2px;
+    cursor:pointer;
+    background-color:darkgrey;
+    color:black;
+}
+.mediaAsset{
+
+    position: relative;
+    top:100px;
+    left: 100px;
+    border: 1px solid white;
+    height: 250px;
+    width: 200px;
+    box-shadow: 5px 10px 10px 1px black;
+    border-radius: 10px;
+    font-style: italic
+}
+
+
+
+body{
+    background: navy;
+}
+
+
+*{
+    color:white;
+}

@@ -1,0 +1,9 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div>
+
+    <ul>
+        <li  *ngFor="let mediaItem of mediaLists"><app-music *ngIf="mediaItem.available"  [musicDetails]="mediaItem" ></app-music> </li>
+    </ul>
+
+</div>

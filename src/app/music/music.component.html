@@ -1,0 +1,20 @@
+<div class="mediaAsset">
+  <h1>{{ musicDetails.title}}</h1>
+  <strong>
+   {{ musicDetails.description}}
+  </strong>
+  <p>Price:{{musicDetails.price}}</p>
+  <div id="buttons">
+    <ul>
+      <li>
+       <span (click)="removeEvent()">REMOVE</span>
+      </li>
+
+
+      <li>
+       <span (click)="addEvent()">ADD</span>
+
+      </li>
+    </ul>
+  </div>
+</div>
